@@ -21,7 +21,8 @@ func main() {
 	// float64 精度只有小数点后15位，一般情况下，精度够用
 	var num1 float32 = -123.0000901
 	var num2 float64 = -123.0000901
-	fmt.Println("num1 = ", num1, "num2 = ", num2)
+	var num3 float32 = float32(num2)
+	fmt.Println("num1 = ", num1, "num2 = ", num2, "num3 = ", num3)
 
 	// 学习初期主要记住3种：int、float64、byte
 
