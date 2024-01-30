@@ -6,6 +6,7 @@ use (
 	./11.Var_Bool
 	./12.Var_Num
 	./13.Var_String
+	./14.Var_Conv
 	./2.Var_Def-1
 	./3.Var_Def-2
 	./4.Var_Init
