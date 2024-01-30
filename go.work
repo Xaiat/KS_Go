@@ -3,6 +3,9 @@ go 1.21.6
 use (
 	./1.Go_Hello_World
 	./10.Const_Iota
+	./11.Var_Bool
+	./12.Var_Num
+	./13.Var_String
 	./2.Var_Def-1
 	./3.Var_Def-2
 	./4.Var_Init
