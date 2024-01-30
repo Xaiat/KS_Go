@@ -22,7 +22,7 @@ func main() {
 	// 字符串连接在一起，称为字符串拼接,使用+号
 	fmt.Println("Hello" + ",Xaiat")
 
-	// 转义字符，实现打印一些特殊符号
+	// 转义字符用 \ 反斜杠开头
 	fmt.Println("Hello\"Xaiat")
 	// \n 是换行符号
 	fmt.Println("Hello\nXaiat")
