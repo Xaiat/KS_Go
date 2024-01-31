@@ -15,11 +15,19 @@ func main() {
 	// >= 大于等于
 	// <= 小于等于
 	fmt.Printf("a == b = %t\n", a == b) // 判断是否相等
-	fmt.Printf("a != b = %t\n", a != b) // 判断是否相等
-	fmt.Printf("a > b = %t\n", a > b)   // 判断是否相等
-	fmt.Printf("a < b = %t\n", a < b)   // 判断是否相等
-	fmt.Printf("a >= b = %t\n", a >= b) // 判断是否相等
-	fmt.Printf("a <= b = %t\n", a <= b) // 判断是否相等
+	fmt.Printf("a != b = %t\n", a != b) // 判断是否不相等
+	fmt.Printf("a > b = %t\n", a > b)   // 判断是否大于
+	fmt.Printf("a < b = %t\n", a < b)   // 判断是否小于
+	fmt.Printf("a >= b = %t\n", a >= b) // 判断是否大于等于
+	fmt.Printf("a <= b = %t\n", a <= b) // 判断是否小于等于
 
 	// 判断 if 如果。。。那么。。。否则。。。
+	if a > b {
+		// 如果 a > b 那么执行这里
+		fmt.Println("a > b")
+		// 否则
+	} else {
+		// 否则执行这里
+		fmt.Println("a <= b")
+	}
 }
