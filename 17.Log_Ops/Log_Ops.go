@@ -24,7 +24,7 @@ func main() {
 	var f bool = false
 	// 逻辑运算符`!`就是`非`, 非我即你，就是我和你只要有一个不满足结果，就执行 (理解为：非、不是)
 	// e 和 f 无论是什么，！e 和 !f 都是相反的结果
-	// 总结：`！`就是取反，true 变 false，false 变 true
+	// 总结：`！`就是`取反`，true 变 false，false 变 true
 	fmt.Println(!e)
 	fmt.Println(!f)
 }
