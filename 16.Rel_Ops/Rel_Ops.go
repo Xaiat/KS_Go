@@ -6,7 +6,7 @@ func main() {
 	var a int = 11
 	var b int = 10
 
-	// 关系运算符
+	// 关系运算符 结果都是布尔值 bool 类型 true 或 false
 	// = 赋值
 	// == 等于
 	// != 不等于
