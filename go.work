@@ -9,7 +9,11 @@ use (
 	./14.Var_Conv
 	./15.Arith_Ops
 	./16.Rel_Ops
+	./17.Log_Ops
+	./18.Bit_Ops
+	./19.Assign_Ops
 	./2.Var_Def-1
+	./20.Misc_Ops
 	./3.Var_Def-2
 	./4.Var_Init
 	./5.RAM_Printf
