@@ -19,6 +19,7 @@ use (
 	./23.FlowCtrl_If_Nesting
 	./24.FlowCtrl_Switch
 	./25.FlowCtrl_Switch_Fallthrough
+	./26.FlowCtrl_For
 	./3.Var_Def-2
 	./4.Var_Init
 	./5.RAM_Printf
