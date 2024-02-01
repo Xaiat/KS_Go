@@ -17,6 +17,7 @@ use (
 	./21.Keyboard_IO
 	./22.FlowCtrl_If
 	./23.FlowCtrl_If_Nesting
+	./24.FlowCtrl_Switch
 	./3.Var_Def-2
 	./4.Var_Init
 	./5.RAM_Printf
