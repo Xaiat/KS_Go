@@ -19,4 +19,13 @@ func main() {
 		fmt.Println("D")
 	}
 
+	// switch 后面如果什么都不跟话，就是默认条件，是一个布尔值，bool = true
+	switch {
+	case false:
+		fmt.Println("false")
+	case true:
+		fmt.Println("true")
+	default:
+		fmt.Println("其他")
+	}
 }
