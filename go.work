@@ -24,6 +24,7 @@ use (
 	./28.FlowCtrl_For_99
 	./29.FlowCtrl_For_BrkCont
 	./3.Var_Def-2
+	./30.FlowCtrl_Iterate_String
 	./4.Var_Init
 	./5.RAM_Printf
 	./6.Var_Swap
