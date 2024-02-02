@@ -35,7 +35,7 @@ func main() {
 	}
 
 	// string字符串是不可变的，不能修改字符串的某个字符
-	str[2] = "A"
-	fmt.Println(str[2])
+	// str[2] = "A"
+	// fmt.Println(str[2])
 
 }
