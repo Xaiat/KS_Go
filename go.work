@@ -27,6 +27,7 @@ use (
 	./30.FlowCtrl_Iterate_String
 	./31.Function
 	./32.Func_Decl
+	./33.Func_Parameter_Argment
 	./4.Var_Init
 	./5.RAM_Printf
 	./6.Var_Swap
