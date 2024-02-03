@@ -35,4 +35,5 @@ use (
 	./7.Anon_Var
 	./8.Var_Scope
 	./9.Const_Def
+	./India_Calculate
 )
