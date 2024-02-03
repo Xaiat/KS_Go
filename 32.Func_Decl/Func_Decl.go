@@ -42,6 +42,6 @@ func add(a int, b int) int {
 }
 
 // 有多个返回值，的函数
-func swap(x, string, y string) (string, string) {
+func swap(x string, y string) (string, string) {
 	return y, x
 }
