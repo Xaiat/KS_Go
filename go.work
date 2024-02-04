@@ -29,6 +29,7 @@ use (
 	./32.Func_Decl
 	./33.Func_Parameter_Argment
 	./34.Func_Varargs
+	./35.Func_Param_Pass
 	./4.Var_Init
 	./5.RAM_Printf
 	./6.Var_Swap
