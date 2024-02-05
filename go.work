@@ -32,6 +32,7 @@ use (
 	./35.Func_Varargs_Value_Pass
 	./36.Func_Varargs_Ref_Pass
 	./37.Func_Var_Scope
+	./38.Func_Recur
 	./4.Var_Init
 	./5.RAM_Printf
 	./6.Var_Swap
