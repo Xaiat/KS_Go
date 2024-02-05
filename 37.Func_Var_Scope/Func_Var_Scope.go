@@ -23,21 +23,27 @@ func main() {
 
 	num := 20
 	// 无论是全局变量还是局部变量，都是找最近的变量去打印
-	fmt.Println(num) // 100
+	fmt.Println(num) // 20
 
 	f1()
 	f2()
+	f3()
 }
 
 func f1() {
 	num := 30
 	// 无论是全局变量还是局部变量，都是找最近的变量去打印
-	fmt.Println(num) // 100
+	fmt.Println(num) // 30
 }
 
 func f2() {
 	num := 40
 	// fmt.Println(a) // 不能使用其他函数中定义的变量
+	// 无论是全局变量还是局部变量，都是找最近的变量去打印
+	fmt.Println(num) // 40
+}
+
+func f3() {
 	// 无论是全局变量还是局部变量，都是找最近的变量去打印
 	fmt.Println(num) // 100
 }
