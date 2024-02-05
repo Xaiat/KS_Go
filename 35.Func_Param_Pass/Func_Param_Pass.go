@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	// 值传递
+	// 1.值传递
 	// arr2 的数据是 从 arr 复制来的，所以是不同的空间
 	// 修改 arr2 并不会影响 arr
 	// 值传递的核心：传递的是数据的副本，修改数据，对于原始的数据没有影响
@@ -15,7 +15,7 @@ func main() {
 	// 传递：执行了拷贝arr动作
 	update(arr)
 	fmt.Println("调用修改后的数据：", arr)
-	// 引用传递
+	// 2.引用传递
 }
 
 func update(arr2 [4]int) {
