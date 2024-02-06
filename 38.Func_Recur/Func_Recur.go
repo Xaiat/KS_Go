@@ -10,7 +10,7 @@ package main
 //	   getsum(3)+4
 //       getsum(2)+3
 //		   getsum(1)+1
-//			 1
+//			 getsum(1)就是1本身
 
 func main() {
 
