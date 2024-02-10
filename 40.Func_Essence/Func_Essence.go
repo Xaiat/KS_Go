@@ -15,6 +15,7 @@ func main() {
 
 	// 定义函数类型的变量
 	var f5 func(int, int)
+	// 函数本身是引用类型的传递，所以可以赋值给变量
 	f5 = f1
 	fmt.Println(f5) // 0x10b0b60
 	fmt.Println(f1) // 0x10b0b60
