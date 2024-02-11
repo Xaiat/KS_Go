@@ -21,13 +21,14 @@ func main() {
 	fmt.Println("r2 =", r2)
 
 	r3 := oper(8, 4, sub)
-	fmt.Println("r2 =", r3)
+	fmt.Println("r3 =", r3)
 
 	r4 := oper(3, 4, mul)
-	fmt.Println("r2 =", r2)
+	fmt.Println("r4 =", r4)
 
-	r5 := oper(3, 4, div)
-	fmt.Println("r2 =", r2)
+	r5 := oper(8, 0, div)
+	fmt.Println("r5 =", r5)
+
 }
 
 // 高阶函数,可以接受一个函数作为参数
@@ -42,4 +43,16 @@ func add(a, b int) int {
 
 func sub(a, b int) int {
 	return a - b
+}
+
+func mul(a, b int) int {
+	return a * b
+}
+
+func div(a, b int) int {
+	if b == 0 {
+		fmt.Println("除数不能为0")
+		return 0
+	}
+	return a / b
 }
