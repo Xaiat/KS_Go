@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 /*
 根据Go语言的数据类型的特点，可以将一个函数作为另一个函数的参数。
@@ -9,12 +11,22 @@ fun2(), fun2()
 fun3函数：就叫做高阶函数，接受了一个函数作为参数
 fun2函数：就叫做回调函数，作为另一个函数（fun2）的参数
 */
+// + - * / 四个函数 add sub mul div
 
 func main() {
 	r1 := add(1, 2)
 	fmt.Println("r1 =", r1)
 
 	r2 := oper(3, 4, add)
+	fmt.Println("r2 =", r2)
+
+	r3 := oper(8, 4, sub)
+	fmt.Println("r2 =", r3)
+
+	r4 := oper(3, 4, mul)
+	fmt.Println("r2 =", r2)
+
+	r5 := oper(3, 4, div)
 	fmt.Println("r2 =", r2)
 }
 
@@ -28,6 +40,6 @@ func add(a, b int) int {
 	return a + b
 }
 
-func minus(a, b int) int {
+func sub(a, b int) int {
 	return a - b
 }
