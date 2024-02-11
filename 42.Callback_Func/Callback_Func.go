@@ -11,7 +11,7 @@ fun2(), fun2()
 fun3函数：就叫做高阶函数，接受了一个函数作为参数
 fun2函数：就叫做回调函数，作为另一个函数（fun2）的参数
 */
-// + - * / 四个函数 add sub mul div
+// + - * / 四个函数 add sub mul div Addition Subtraction Multiplication Division
 
 func main() {
 	r1 := add(1, 2)
