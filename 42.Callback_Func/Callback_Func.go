@@ -13,8 +13,21 @@ fun2函数：就叫做回调函数，作为另一个函数（fun2）的参数
 func main() {
 	r1 := add(1, 2)
 	fmt.Println("r1 =", r1)
+
+	r2 := oper(3, 4, add)
+	fmt.Println("r2 =", r2)
+}
+
+// 高阶函数,可以接受一个函数作为参数
+func oper(a, b int, fun func(int, int) int) int {
+	r := fun(a, b)
+	return r
 }
 
 func add(a, b int) int {
 	return a + b
+}
+
+func minus(a, b int) int {
+	return a - b
 }
