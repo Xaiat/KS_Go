@@ -36,6 +36,7 @@ use (
 	./39.Func_Defer
 	./4.Var_Init
 	./40.Func_Essence
+	./41.Anon_Func
 	./5.RAM_Printf
 	./6.Var_Swap
 	./7.Anon_Var
